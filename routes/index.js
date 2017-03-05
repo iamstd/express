@@ -4,7 +4,7 @@ var router = express.Router();
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' }, (err, html) => {
-    res.send('lee')
+    res.send('lee2')
   });
 });
 // product-details
